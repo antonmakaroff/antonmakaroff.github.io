@@ -3349,32 +3349,6 @@ $(document).ready(function(){
 	}
 
 	//music albums
-
-	// var showAlbums = document.getElementById('view-more');
-	// var label = document.getElementById('view-more-label');
-	// showAlbums.addEventListener("click", displayAlbums);
-	// function displayAlbums(event) {
-	// 	var visibleAlbums = document.getElementsByClassName('visible-album');
-	// 	var dataAtr = event.target.getAttribute('data-show');
-	// 	var isVisible = parseInt(dataAtr);
-	// 	//0 albums hidden, 1 albums showing
-	// 	if (isVisible === 0) {
-	// 		for (var i = 0; i < visibleAlbums.length; i++) {
-	// 			visibleAlbums[i].classList.remove('hidden-album');
-	// 		}
-	// 		showAlbums.setAttribute('data-show', 1);
-	// 		showAlbums.textContent = 'свернуть';
-	// 		label.textContent = '1 - 25 из 25'
-	// 	} else {
-	// 		for (var i = 0; i < visibleAlbums.length; i++) {
-	// 			visibleAlbums[i].classList.add('hidden-album');
-	// 		}
-	// 		showAlbums.setAttribute('data-show', 0);
-	// 		showAlbums.textContent = 'развернуть';
-	// 		label.textContent = '1 - 5 из 25'
-	// 	}
-	// }
-
 	var showAlbums = document.getElementById('view-more');
 	var showAlbums2 = document.getElementById('view-more-2');
 	var label = document.getElementById('view-more-label');
